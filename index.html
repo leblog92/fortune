@@ -29,6 +29,10 @@
 		color:gold;
 		width:800px;
 	}
+	span{
+		font-family:Arial;
+		font-size:20px;
+	}
 </style>
 </head>
 <body>
@@ -44,7 +48,7 @@ var nb;
 	document.getElementById("cookie").addEventListener("click",function(){
 		chi_audio.play();
 		nb=Math.floor(Math.random()*arr.length);
-		div1.innerHTML=arr[nb]+'<br><br><span style="font-size:20px">Citation n°'+nb+'/'+arr.length+'</span>';
+		div1.innerHTML=arr[nb]+'<br><br><span>Citation n°'+nb+'/'+arr.length+'</span>';
 	});
 </script>
 </html>
